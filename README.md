@@ -34,5 +34,4 @@ All data will download automatically — no setup needed.
 
 ---
 
-👤 *Author: [Your Name]*  
 🎯 *Goal: Showcase ML/NLP skills for entry-level ML developer position*
