@@ -12,4 +12,5 @@ Install dependencies and run the script:
 ```bash
 pip install -r requirements.txt
 python news_classification_ml.py
+```
 Saved models are in the models/ folder and UMAP visualizations are in the plots/ folder.
