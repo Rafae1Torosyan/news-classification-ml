@@ -1,16 +1,28 @@
 # News Classification ML
 
-A project for classifying news headlines using TF-IDF and SBERT models. This project trains classifiers on the AG News dataset using TF-IDF with Logistic Regression and SBERT embeddings with a classifier. UMAP visualizations are generated to assess the quality of embeddings. Models achieve strong precision, recall, and F1-score across all classes.
+Welcome to the News Classification project! 🚀
+
+This project tackles the challenge of classifying news headlines into categories using two powerful approaches: classic TF-IDF with Logistic Regression, and modern SBERT embeddings with a classifier. We trained these models on the popular AG News dataset.
+
+To get a better feel of how the models understand the data, we also generate UMAP visualizations that show how well the embeddings capture the news topics.
+
+Here’s a quick overview of how the models performed:
 
 | Model   | Accuracy (%) |
 |---------|--------------|
 | TF-IDF  | 83           |
 | SBERT   | 86.5         |
 
-Install dependencies and run the script:
+Both models achieve strong results, delivering reliable precision, recall, and F1-scores across all categories.
+
+## Getting Started
+
+To try this project yourself, just install the required packages and run the main script:
 
 ```bash
 pip install -r requirements.txt
 python news_classification_ml.py
 ```
-Saved models are in the models/ folder and UMAP visualizations are in the plots/ folder.
+After running, you’ll find the trained models saved in the models/ directory and the UMAP visualization plots in the plots/ folder.
+
+Feel free to explore, tweak, and build on top of this foundation. Happy coding! 🎉
